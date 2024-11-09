@@ -25,4 +25,4 @@ ARGS=(
     -lgmpxx -lgmp
 )
 
-g++-14 ./Main.cpp "${ARGS[@]}"
+g++-14 "${ARGS[@]}" ./Main.cpp
